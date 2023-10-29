@@ -1,0 +1,2 @@
+require('soken')
+print ("hello")
