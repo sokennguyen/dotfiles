@@ -14,9 +14,9 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({ "luisiacc/gruvbox-baby", as = "gruvbox-baby",
+  use({ 'stevedylandev/flexoki-nvim', as = 'flexoki',
 	config = function()
-		vim.cmd('colorscheme gruvbox-baby')
+		vim.cmd('colorscheme flexoki')
 	end
   })
 

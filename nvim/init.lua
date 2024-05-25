@@ -1,1 +1,2 @@
 require('soken')
+print ("hello")
