@@ -1,5 +1,6 @@
 Fresh Arch install need:
 - Xorg (select this at archinstall)
 - libxinerama
+- ttf-dejavu (or any other fonts)
 
 then cp .xinitrc from /xorg dir to ~/
